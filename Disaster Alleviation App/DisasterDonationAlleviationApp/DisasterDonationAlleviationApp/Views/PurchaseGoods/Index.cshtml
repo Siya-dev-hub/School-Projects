@@ -1,0 +1,39 @@
+﻿@model DisasterDonationAlleviationApp.Models.PurchaseGoodsViewModel
+
+@{
+    ViewData["Title"] = "Purchase Goods";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="disaster">Select Disaster:</label>
+        <select id="disaster" name="SelectedDisasterId" class="form-control">
+            <option value="">-- Select Disaster --</option>
+            @foreach (var disaster in Model.Disasters)
+            {
+                <option value="@disaster.Id">@disaster.Description</option>
+            }
+        </select>
+    </div>
+
+    <h3>Select Goods to Purchase</h3>
+    <div id="goods-list">
+        @foreach (var goods in Model.Goods)
+        {
+            <div class="form-group">
+                <label>@goods.Name</label>
+                <input type="hidden" name="SelectedGoods[@goods.Id].GoodsId" value="@goods.Id" />
+                <input type="number" name="SelectedGoods[@goods.Id].Quantity" placeholder="Quantity" class="form-control" min="1" />
+                <input type="hidden" name="SelectedGoods[@goods.Id].Cost" value="@goods.Cost" />
+            </div>
+        }
+    </div>
+
+    <p>Available Money: @Model.AvailableMoney</p>
+
+    <button type="submit" class="btn btn-primary">Purchase Goods</button>
+</form>
+
+

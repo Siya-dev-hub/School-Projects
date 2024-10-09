@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DisasterDonationAlleviationApp.Models.Disaster>
+
+@{
+    ViewData["Title"] = "Allocate Money to Disasters";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <p>No active disasters available for allocation.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Location</th>
+                <th>Description</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Allocate Money</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var disaster in Model)
+            {
+                <tr>
+                    <td>@disaster.Location</td>
+                    <td>@disaster.Description</td>
+                    <td>@disaster.StartDate.ToShortDateString()</td>
+                    <td>@(disaster.EndDate.HasValue ? disaster.EndDate.Value.ToShortDateString() : "Ongoing")</td>
+                    <td>
+                        <form asp-action="Allocate" method="post">
+                            <div class="input-group">
+                                <input type="hidden" name="disasterId" value="@disaster.Id" />
+                                <input type="number" step="0.01" class="form-control" name="amount" placeholder="Enter amount" required />
+                                <button type="submit" class="btn btn-primary">Allocate</button>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

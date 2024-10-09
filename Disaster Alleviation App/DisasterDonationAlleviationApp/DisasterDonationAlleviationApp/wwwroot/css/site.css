@@ -1,0 +1,111 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+/* Adjust font size for medium and large screens */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #6A0DAD; /* Purple background */
+    color: #FFA500; /* Orange text */
+    font-size: 1rem; /* Consistent font size */
+}
+
+/* Style for all headers (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFA500; /* Orange headers */
+}
+
+/* Style for links across the site */
+a {
+    color: #FFA500; /* Orange for links */
+}
+
+    a:hover {
+        text-decoration: underline; /* Optional hover effect for links */
+    }
+
+.navbar, .footer {
+    background-color: #6A0DAD; /* Purple background for navbar and footer */
+    color: #FFFFFF; /* White text for footer */
+}
+
+    .footer a, .navbar a {
+        color: #FFA500; /* Orange for links in footer and navbar */
+    }
+
+        .footer a:hover, .navbar a:hover {
+            text-decoration: underline;
+        }
+
+/* Table styling */
+table {
+    background-color: #FFFFFF; /* White background for tables */
+    color: #000000; /* Black text inside tables */
+    border: 1px solid #FFA500; /* Orange borders for tables */
+}
+
+th {
+    background-color: #6A0DAD; /* Purple for table headers */
+    color: #FFFFFF; /* White text for table headers */
+}
+
+td {
+    border: 1px solid #FFA500; /* Orange borders for table cells */
+}
+
+/* Form input and buttons styling */
+input, textarea, select {
+    background-color: #FFFFFF;
+    color: #6A0DAD; /* Purple text inside form elements */
+    border: 1px solid #FFA500; /* Orange borders for form elements */
+}
+
+    input[type="submit"], button, .btn {
+        background-color: #6A0DAD; /* Purple background for buttons */
+        color: #FFFFFF; /* White text for buttons */
+        border-color: #FFA500; /* Orange border for buttons */
+    }
+
+        input[type="submit"]:hover, button:hover, .btn:hover {
+            background-color: #FFFFFF; /* White background on hover */
+            color: #6A0DAD; /* Purple text on hover */
+            border-color: #6A0DAD; /* Purple border on hover */
+        }
+    /* Ensure checkboxes and radio buttons are styled consistently */
+    input[type="checkbox"], input[type="radio"] {
+        margin: 0; /* Remove default margin */
+        vertical-align: middle; /* Align with text */
+        accent-color: #6A0DAD; /* Set checkbox color to purple */
+    }
+
+/* Style for labels associated with checkboxes and radio buttons */
+label {
+    color: #FFA500; /* Orange text color for labels */
+    margin-left: 5px; /* Add space between checkbox and label text */
+}
+
+/* Additional styling for form elements to ensure consistency */
+input[type="text"], input[type="number"], textarea, select {
+    padding: 0.5rem; /* Add padding inside form elements */
+    border-radius: 0.25rem; /* Rounded corners for form elements */
+}
+
+input[type="checkbox"] {
+    width: auto; /* Reset default width */
+    height: auto; /* Reset default height */
+}
+
