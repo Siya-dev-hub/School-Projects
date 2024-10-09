@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Photo Gallery - Anime Fuku</title>
+        <!--(w3school, 2021)-->
+        <link rel="stylesheet" type="text/css" href="css/newcss.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script language="javascript" src="javascript/newjavascript.js"></script>
+
+        
+        
+        <style>
+            
+            
+                        body {/*(w3school, 2021)*/
+                background-image: url(images/Fuku.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+              }
+    
+            * {
+              box-sizing: border-box;
+            }
+        
+
+        /* Add a card effect for articles */
+        .card {/*(w3school, 2021)*/
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+        }
+
+        
+        .row:after {/*(w3school, 2021)*/
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+       
+
+        
+        @media screen and (max-width: 800px) {/*(w3school, 2021)*/
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+
+         
+        @media screen and (max-width: 400px) {/*(w3school, 2021)*/
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        
+        @media screen and (max-width: 600px) 
+              {
+              #footer {
+                width: 100%;
+                      }
+              }
+        
+        
+
+        </style>
+        <!--(w3school, 2021)-->
+    </head>
+    <!--(w3school, 2021)-->
+    <body >
+        <div class="header">
+            
+        <a href="index.html"><img src="images/logo2.png" alt="logo" width="86" height="79" /></a><!--(w3school, 2021)-->
+        <h1>Anime Fuku - Photo Gallery</h1>
+        
+        </div>
+        
+        <div class="topnav"><!--(w3school, 2021)-->
+            <a href="index.html">Home</a><!--(w3school, 2021)-->
+                <a href="about.html">About</a><!--(w3school, 2021)-->
+                <a href="ourWOrk.html">Our Work</a><!--(w3school, 2021)-->
+                <a href="photoGallery.html">Photo Gallery</a><!--(w3school, 2021)-->
+                <a href="getInvolved.html">Get Involved</a><!--(w3school, 2021)-->
+                <a href="contactUs.html">Contact Us</a><!--(w3school, 2021)-->
+                
+        </div><!--(w3school, 2021)-->
+        
+        <div class="row"><!--(w3school, 2021)-->
+          <div class="column"><!--(w3school, 2021)-->
+            <div class="card"><!--(w3school, 2021)-->
+              <img src="images/Siya.jpg" style="width:100%" class="responsive, hover-shadow" onclick="openModal();currentSlide(1)">
+              <div class="container">
+                <h2>Siyabulela Sitshongaye</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Siya has a diploma in Software Development from Varsity college and Loves anime. Contact for Employment.</p>
+                <p>Sitshongaye@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column"><!--(w3school, 2021)-->
+            <div class="card"><!--(w3school, 2021)-->
+              <img src="images/chunky.jpg" style="width:100%" class="responsive, hover-shadow" onclick="openModal();currentSlide(2)"><!--(youtube, 2021)-->
+              <div class="container"><!--(w3school, 2021)-->
+                <h2>Chuncky</h2><!--(IMBD, 2021)-->
+                <p class="title">Designer/tailor</p>
+                <p>Was taught how to design and print designs onto clothes. University of Pretoria. Contact to change current pre discussed designs. </p>
+                <p>Chunky@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+            
+          <div class="column"><!--(w3school, 2021)-->
+            <div class="card"><!--(w3school, 2021)-->
+              <img src="images/joe.jpg" style="width:100%" class="responsive, hover-shadow" onclick="openModal();currentSlide(3)"><!--(youtube, 2021)-->
+              <div class="container"><!--(w3school, 2021)-->
+                <h2>Joe</h2>
+                <p class="title">Product Management</p>
+                <p>Loves Studied at the University of Pretoria.</p>
+                <p>animefuku@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+           </div>  
+            
+            
+            
+        </div>
+            
+        
+        
+        
+        
+        
+        
+        <div class="row">
+            <div class="column">
+            <div class="card">
+              <img src="images/downbad.jpg" style="width:100%" class="responsive, hover-shadow" onclick="openModal();currentSlide(4)"><!--(famousbirthdays, 2021)-->
+              <div class="container">
+                <h2>Mike Cakes</h2> <!--(famousbirthdays, 2021)-->
+                <p class="title">Logistics</p>
+                <p>University of Pretoria. Contact to discuss delivery </p>
+                <p>mikecakez@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>  
+          
+          <div class="column">
+            <div class="card">
+              <img src="images/tra.jpg" style="width:100%" class="responsive, hover-shadow" onclick="openModal();currentSlide(5)"><!--(famousbirthdays, 2021)-->
+              <div class="container">
+                <h2>Tra Rags</h2><!--(famousbirthdays, 2021)-->
+                <p class="title">Office Security </p>
+                <p>Loves anime. Contact for lost items</p>
+                <p>ragstra@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+              
+        </div>
+
+            
+       
+        
+        <div class="card1">
+            <h2>Upcoming Projects</h2><!--(w3school, 2021)-->
+            <img src="images/77192d5ff2a687fd031a1ac765d538614caeb0fcr1-2048-2048v2_hq.jpg" width="390" height="390" class="responsive, hover-shadow" onclick="openModal();currentSlide(6)" ><!--(narvii.com, 2021)-->
+            <img src="images/Miyamura-Izumi-Horimiya-anime-Phone-Case-Transparent-for-iPhone-11-12-mini-pro-XS-MAX-8.jpg" width="390" height="390" class="responsive, hover-shadow" onclick="openModal();currentSlide(7)"><!--(alicdn.com, 2021)-->
+            <img src="images/8e212ec2327acf372011d36ed308dcd593d3371a_original.jpeg" width="390" height="390" class="responsive, hover-shadow" onclick="openModal();currentSlide(8)"><!--(joomcdn.net, 2021)-->
+        </div>        
+        
+        
+        <div id="footer">
+          <div>
+            <h2>Contact Us:</h2>
+            <h3>Email</h3>
+                animefuku@gmail.com <br>
+                <h3>Address</h3>
+                113 Bosduif street<br>
+                Kwaggasrand<br>
+                Pretoria, South Africa<br>
+                <h3>Phone:</h3>
+                (307) 344-9867
+          </div>
+            <div>
+            <h2>Social Media:</h2>
+            <a href="#" class="fa fa-facebook"></a> <!--(w3school, 2021)-->
+            <a href="#" class="fa fa-instagram"></a><br /><!--(w3school, 2021)-->
+            <a href="#" class="fa fa-twitter"></a><br /><!--(w3school, 2021)-->
+            <a href="#" class="fa fa-youtube"></a><br /><!--(w3school, 2021)-->
+            <a href="#" class="fa fa-reddit"></a><br /><!--(w3school, 2021)-->
+            </div>
+            <div>
+            <h2>Quick Links:</h2>
+            <ul><!--(w3school, 2021)-->
+            <li><a href="index.html">Home</a></li><!--(w3school, 2021)-->
+                <li><a href="about.html">About</a></li><!--(w3school, 2021)-->
+                <li><a href="ourWOrk.html">Our Work</a></li><!--(w3school, 2021)-->
+                <li><a href="photoGallery.html">Photo Gallery</a></li><!--(w3school, 2021)-->
+                <li><a href="getInvolved.html">Get Involved</a></li><!--(w3school, 2021)-->
+                <li><a href="contactUs.html">Contact Us</a></li><!--(w3school, 2021)-->
+                
+        </ul>
+          </div>
+   
+         </div><!--(w3school, 2021)-->
+         
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal"><!--(w3school, 2021)-->
+  <span class="close cursor" onclick="closeModal()">&times;</span><!--(w3school, 2021)-->
+  <div class="modal-content"><!--(w3school, 2021)-->
+
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">1 / 8</div><!--(w3school, 2021)-->
+      <img src="images/Siya.jpg" width="390"  ><!--(w3school, 2021)-->
+    </div>
+
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">2 / 8</div><!--(w3school, 2021)-->
+      <img src="images/chunky.jpg" width="390"><!--(w3school, 2021)-->
+    </div>
+
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">3 / 8</div><!--(w3school, 2021)-->
+      <img src="images/joe.jpg" width="390"><!--(w3school, 2021)-->
+    </div>
+
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">4 / 8</div><!--(w3school, 2021)-->
+      <img src="images/downbad.jpg" width="390" ><!--(w3school, 2021)-->
+    </div>
+      
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">5 / 8</div><!--(w3school, 2021)-->
+      <img src="images/tra.jpg" width="390"><!--(w3school, 2021)-->
+    </div>
+    
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">6 / 8</div><!--(w3school, 2021)-->
+      <img src="images/77192d5ff2a687fd031a1ac765d538614caeb0fcr1-2048-2048v2_hq.jpg" width="390"><!--(w3school, 2021)-->
+    </div>  
+    
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">7 / 8</div><!--(w3school, 2021)-->
+      <img src="images/Miyamura-Izumi-Horimiya-anime-Phone-Case-Transparent-for-iPhone-11-12-mini-pro-XS-MAX-8.jpg" width="390"><!--(w3school, 2021)-->
+    </div>
+      
+    <div class="mySlides"><!--(w3school, 2021)-->
+      <div class="numbertext">8 / 8</div><!--(w3school, 2021)-->
+      <img src="images/8e212ec2327acf372011d36ed308dcd593d3371a_original.jpeg" width="390"><!--(w3school, 2021)-->
+    </div>  
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a><!--(w3school, 2021)-->
+    <a class="next" onclick="plusSlides(1)">&#10095;</a><!--(w3school, 2021)-->
+
+    <!-- Caption text -->
+    <div class="caption-container"><!--(w3school, 2021)-->
+      <p id="caption"></p><!--(w3school, 2021)-->
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/Siya.jpg " style="width:100%" onclick="currentSlide(1)" alt="Siyabulela/CEO">
+    </div><!--(w3school, 2021)-->
+
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/chunky.jpg" style="width:100%" onclick="currentSlide(2)" alt="Chunky/Designer">
+    </div>
+
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/joe.jpg" style="width:100%" onclick="currentSlide(3)" alt="Joe/Product Management">
+    </div>
+
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/downbad.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mike Cakes/Logistics">
+    </div>
+    
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/tra.jpg" style="width:100%" onclick="currentSlide(5)" alt="Tra Rags/Office Security">
+    </div>
+    
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/77192d5ff2a687fd031a1ac765d538614caeb0fcr1-2048-2048v2_hq.jpg" style="width:100%" onclick="currentSlide(6)" alt="Upcoming project/Phone case1">
+    </div>
+    
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/Miyamura-Izumi-Horimiya-anime-Phone-Case-Transparent-for-iPhone-11-12-mini-pro-XS-MAX-8.jpg"  style="width:100%" onclick="currentSlide(7)" alt="Upcoming project/Phone case2">
+    </div>
+    
+    <div class="column"><!--(w3school, 2021)-->
+      <img class="demo" src="images/8e212ec2327acf372011d36ed308dcd593d3371a_original.jpeg"  style="width:100%" onclick="currentSlide(8)" alt="Upcoming project/Phone case3">
+    </div>
+  </div>
+</div>
+         
+    </body>
+    
+                
+                
+                
+                
+</html>
+<!--Bibliography
+w3schools.com [1], n.d. Introduction to HTML. Available at: https://www.w3schools.com/html/default.asp [Accessed 27 September 2021]
+
+Images
+
+lightinthebox.com ,[image online] Available at: https://litb-cgis.rightinthebox.com/images/640x640/201809/pgvcdl1536308202887.jpg [Accessed 1 October 2021]
+
+etsystatic.com, [image online] Available at: https://i.etsystatic.com/25792860/r/il/32b93b/2684827708/il_570xN.2684827708_44s4.jpg [Accessed 1 October 2021]
+
+Amazon.com, [image online] Available at: https://m.media-amazon.com/images/I/A1nYNISnPeL._CLa%7C2140%2C2000%7CA1l%2Bj4-D8BL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX342_.png [Accessed 1 October 2021]
+
+cloudinary.com [image online]Available at: https://res.cloudinary.com/teepublic/image/private/s--nkyqkE36--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_570/c_crop,g_north_west,h_626,w_470,x_-21,y_0/g_north_west,u_upload:v1462829024:production:blanks:a59x1cgomgu5lprfjlmi,x_-416,y_-325/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1587928189/production/designs/9516041_0.jpg [Accessed 1 October 2021]
+
+rightinthebox.com [image online]Available at: https://litb-cgis.rightinthebox.com/images/640x640/201811/jtthgf1542772969709.jpg?fmt=webp&v=1 [Accessed 1 October 2021]
+
+ebay.com [image online]Available at: https://i.ebayimg.com/images/g/HvEAAOSwj-BdGara/s-l300.jpg [Accessed 1 October 2021]
+
+gstatic.com [image online]Available at: https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRQTSSGddJQx86iGbxb4meur0kDmk40fA2_ugkdUlo4VeUkmFnpC8-nj6SyCTbC_TrK6_ppQ0c-g6_WfbId0DrRYqOMpspfUt2aNdUZVwiMu2rElwK3NcX9Qg&usqp=CAE [Accessed 1 October 2021]
+
+commonobject.com [image online]Available at: https://commonobjective-uploads.storage.googleapis.com/images/wysiwyg/PURECOTZ-sewing-1-5db.jpg [Accessed 1 October 2021]
+
+reddit.com [image online]Available at: https://i.redd.it/qtvk5fsg1u721.jpg [Accessed 1 October 2021]
+
+ebay.com [image online]Available at: https://i.ebayimg.com/images/g/~3MAAOSwSiVe0GRD/s-l400.jpg [Accessed 1 October 2021]
+
+gstatic.com [image online]Available at: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fSiJVr1PNW31CO6l-csCO7-wgZJSB_UA4A&usqp=CAU  [Accessed 1 October 2021]
+
+reddit.com [image online]Available at: https://i.redd.it/bf1cmtmn48s01.jpg [Accessed 1 October 2021]
+
+tingzer.top [image online]Available at: https://images.loox.io/uploads/2019/5/21/N1g4buU6h8.jpg [Accessed 1 October 2021]
+
+famousbirthdays.com [image online]Available at: https://www.famousbirthdays.com/faces/ragsdale-traquan-image.jpg [Accessed 1 October 2021]
+
+famousbirthdays.com [image online]Available at: https://www.famousbirthdays.com/faces/mikecakez-image.jpg [Accessed 1 October 2021]
+
+youtube.com [image online]Available at: https://yt3.ggpht.com/ytc/AKedOLRHX5ORpzVmY0TgKfpF0wwqrJPjlzXCjMmKWRVY=s900-c-k-c0x00ffffff-no-rj [Accessed 1 October 2021]
+
+narvii.com [image online]Available at: https://pm1.narvii.com/7720/77192d5ff2a687fd031a1ac765d538614caeb0fcr1-2048-2048v2_hq.jpg [Accessed 1 October 2021]
+
+alicdn.com [image online]Available at: https://ae01.alicdn.com/kf/H525d421fa80a4d65bd319d591babc4edX/Miyamura-Izumi-Horimiya-anime-Phone-Case-Transparent-for-iPhone-11-12-mini-pro-XS-MAX-8.jpg [Accessed 1 October 2021]
+
+joomcdn.net [image online]Available at: https://img.joomcdn.net/8e212ec2327acf372011d36ed308dcd593d3371a_original.jpeg [Accessed 1 October 2021]
+
+youtube.com [image online]Available at: https://yt3.ggpht.com/ytc/AKedOLT4iBcFeP076Z-veyKjYrBOGTghfGWz9EfaaLBX=s900-c-k-c0x00ffffff-no-rj [Accessed 1 October 2021]
+-->

@@ -1,0 +1,462 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Oct 2021, 12:53:23 PM
+    Author     : User
+*/
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 390px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body{
+    font-family: verdana; /*(w3school, 2021)*/
+    padding: 20px;/*(w3school, 2021)*/
+}
+
+
+.header {
+  padding: 30px;/*(w3school, 2021)*/
+  text-align: center;/*(w3school, 2021)*/
+  background: #ffe6e6;/*(w3school, 2021)*/
+  
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;/*(w3school, 2021)*/
+    padding: 0;/*(w3school, 2021)*/
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {/*(w3school, 2021)*/
+    float: none;/*(w3school, 2021)*/
+    width: 100%;/*(w3school, 2021)*/
+  }
+}
+
+@media screen and (max-width: 600px) /*(w3school, 2021)*/ 
+              {/*(w3school, 2021)*/
+              #footer {
+                width: 100%;
+                      }
+              }
+.responsive /*(w3school, 2021)*/
+{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 601px){
+h1{
+    font-family: Brush Script MT;/*(w3school, 2021)*/
+    font-size: 26pt;/*(w3school, 2021)*/
+}
+
+
+h2{
+    font-family: Garamond;/*(w3school, 2021)*/
+    font-size: 22pt;/*(w3school, 2021)*/
+}
+
+p 
+{
+  text-align: justify; margin: 10px 0px;}/*(w3school, 2021)*/
+}
+ul 
+{
+  list-style-type: none;/*(w3school, 2021)*/
+}
+
+
+.header img {
+  float: left;/*(w3school, 2021)*/
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {/*(w3school, 2021)*/
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+
+
+.topnav {/*(w3school, 2021)*/
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {/*(w3school, 2021)*/
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {/*(w3school, 2021)*/
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {/*(w3school, 2021)*/
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+
+.column {/*(w3school, 2021)*/
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {/*(w3school, 2021)*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+}
+.card1 {/*(w3school, 2021)*/
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.about-section {/*(w3school, 2021)*/
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {/*(w3school, 2021)*/
+  padding: 0 16px;
+}
+
+.container::after, .row::after {/*(w3school, 2021)*/
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {/*(w3school, 2021)*/
+  color: grey;
+}
+
+*, *:before, *:after {/*(w3school, 2021)*/
+  box-sizing: inherit;
+}
+
+.button {/*(w3school, 2021)*/
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {/*(w3school, 2021)*/
+  background-color: #555;
+}
+
+.fa {/*(w3school, 2021)*/
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {/*(w3school, 2021)*/
+    opacity: 0.7;
+}
+
+.fa-facebook {/*(w3school, 2021)*/
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {/*(w3school, 2021)*/
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-youtube {/*(w3school, 2021)*/
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {/*(w3school, 2021)*/
+  background: #125688;
+  color: white;
+}
+
+.fa-reddit {/*(w3school, 2021)*/
+  background: #ff5700;
+  color: white;
+}
+
+
+
+
+#footer {/*(w3school, 2021)*/
+    display: table;
+    max-width: 60em;
+    
+    margin: 0 auto;
+    border: 0.062em solid #151515;
+    background-color: #f2f2f2;
+    color:  #151515;
+ }
+
+#footer div {/*(w3school, 2021)*/
+    display: table-cell;
+    width: 33.333%;
+    padding: 1em;
+    text-align: center;
+}
+
+#footer div h2 {/*(w3school, 2021)*/
+    text-align: center;
+ }
+
+#footer div:nth-of-type(2) {/*(w3school, 2021)*/
+    border-right: 0.062em dotted #999;
+    border-left: 0.062em dotted #999;
+ }
+
+#footer div:nth-of-type(3) {/*(w3school, 2021)*/
+    text-align: left;
+ }
+
+
+/* Clear floats after the columns */
+.row:after {/*(w3school, 2021)*/
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn /*(w3school, 2021)*/
+{   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {/*(w3school, 2021)*/
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Footer */
+.footer {/*(w3school, 2021)*/
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 400px) {/*(w3school, 2021)*/
+  .topnav a {
+    float: none;
+    width: 100%;/*(w3school, 2021)*/
+  }
+}
+
+@media screen and (max-width: 1500px) /*(w3school, 2021)*/
+              {
+              .par {
+                width: 100%;
+                height: auto;
+                      }
+              }
+
+/*Bibliography
+w3schools.com [1], n.d. Introduction to HTML. Available at: https://www.w3schools.com/html/default.asp [Accessed 27 September 2021]
+
+Images
+
+lightinthebox.com ,[image online] Available at: https://litb-cgis.rightinthebox.com/images/640x640/201809/pgvcdl1536308202887.jpg [Accessed 1 October 2021]
+
+etsystatic.com, [image online] Available at: https://i.etsystatic.com/25792860/r/il/32b93b/2684827708/il_570xN.2684827708_44s4.jpg [Accessed 1 October 2021]
+
+Amazon.com, [image online] Available at: https://m.media-amazon.com/images/I/A1nYNISnPeL._CLa%7C2140%2C2000%7CA1l%2Bj4-D8BL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX342_.png [Accessed 1 October 2021]
+
+cloudinary.com [image online]Available at: https://res.cloudinary.com/teepublic/image/private/s--nkyqkE36--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_570/c_crop,g_north_west,h_626,w_470,x_-21,y_0/g_north_west,u_upload:v1462829024:production:blanks:a59x1cgomgu5lprfjlmi,x_-416,y_-325/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1587928189/production/designs/9516041_0.jpg [Accessed 1 October 2021]
+
+rightinthebox.com [image online]Available at: https://litb-cgis.rightinthebox.com/images/640x640/201811/jtthgf1542772969709.jpg?fmt=webp&v=1 [Accessed 1 October 2021]
+
+ebay.com [image online]Available at: https://i.ebayimg.com/images/g/HvEAAOSwj-BdGara/s-l300.jpg [Accessed 1 October 2021]
+
+gstatic.com [image online]Available at: https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRQTSSGddJQx86iGbxb4meur0kDmk40fA2_ugkdUlo4VeUkmFnpC8-nj6SyCTbC_TrK6_ppQ0c-g6_WfbId0DrRYqOMpspfUt2aNdUZVwiMu2rElwK3NcX9Qg&usqp=CAE [Accessed 1 October 2021]
+
+commonobject.com [image online]Available at: https://commonobjective-uploads.storage.googleapis.com/images/wysiwyg/PURECOTZ-sewing-1-5db.jpg [Accessed 1 October 2021]
+
+reddit.com [image online]Available at: https://i.redd.it/qtvk5fsg1u721.jpg [Accessed 1 October 2021]
+
+ebay.com [image online]Available at: https://i.ebayimg.com/images/g/~3MAAOSwSiVe0GRD/s-l400.jpg [Accessed 1 October 2021]
+
+gstatic.com [image online]Available at: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4fSiJVr1PNW31CO6l-csCO7-wgZJSB_UA4A&usqp=CAU  [Accessed 1 October 2021]
+
+reddit.com [image online]Available at: https://i.redd.it/bf1cmtmn48s01.jpg [Accessed 1 October 2021]
+
+tingzer.top [image online]Available at: https://images.loox.io/uploads/2019/5/21/N1g4buU6h8.jpg [Accessed 1 October 2021]
+
+famousbirthdays.com [image online]Available at: https://www.famousbirthdays.com/faces/ragsdale-traquan-image.jpg [Accessed 1 October 2021]
+
+famousbirthdays.com [image online]Available at: https://www.famousbirthdays.com/faces/mikecakez-image.jpg [Accessed 1 October 2021]
+
+youtube.com [image online]Available at: https://yt3.ggpht.com/ytc/AKedOLRHX5ORpzVmY0TgKfpF0wwqrJPjlzXCjMmKWRVY=s900-c-k-c0x00ffffff-no-rj [Accessed 1 October 2021]
+
+narvii.com [image online]Available at: https://pm1.narvii.com/7720/77192d5ff2a687fd031a1ac765d538614caeb0fcr1-2048-2048v2_hq.jpg [Accessed 1 October 2021]
+
+alicdn.com [image online]Available at: https://ae01.alicdn.com/kf/H525d421fa80a4d65bd319d591babc4edX/Miyamura-Izumi-Horimiya-anime-Phone-Case-Transparent-for-iPhone-11-12-mini-pro-XS-MAX-8.jpg [Accessed 1 October 2021]
+
+joomcdn.net [image online]Available at: https://img.joomcdn.net/8e212ec2327acf372011d36ed308dcd593d3371a_original.jpeg [Accessed 1 October 2021]
+
+youtube.com [image online]Available at: https://yt3.ggpht.com/ytc/AKedOLT4iBcFeP076Z-veyKjYrBOGTghfGWz9EfaaLBX=s900-c-k-c0x00ffffff-no-rj [Accessed 1 October 2021]*/
