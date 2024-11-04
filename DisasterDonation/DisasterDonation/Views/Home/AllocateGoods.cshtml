@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Allocate Goods";
+}
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Allocate Goods</h1>
+    </div>
+    @model AllocateGoodsViewModel
+
+    <form asp-action="AllocateGoods" method="post" class="bg-light p-4 rounded shadow-sm">
+        <div class="mb-3">
+            <label for="GoodsDonationId" class="form-label">Goods Donation</label>
+            <select asp-for="GoodsDonationId" asp-items="@(new SelectList(Model.UnallocatedGoodsDonations, "Id", "Description"))" class="form-select" id="GoodsDonationId" required>
+                <option value="">Select a goods donation</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="DisasterId" class="form-label">Disaster</label>
+            <select asp-for="DisasterId" asp-items="@(new SelectList(Model.ActiveDisasters, "Id", "Location"))" class="form-select" id="DisasterId" required>
+                <option value="">Select a disaster</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Allocate</button>
+    </form>
+</div>

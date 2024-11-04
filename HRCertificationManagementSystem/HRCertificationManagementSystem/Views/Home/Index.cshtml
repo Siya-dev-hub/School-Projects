@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container my-5">
+    <!-- Welcome Section -->
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold text-primary">Welcome to the HR Certification Management System</h1>
+        <p class="lead text-muted">Effortlessly manage employee certifications and stay ahead on compliance.</p>
+        <a href="https://learn.microsoft.com/aspnet/core" target="_blank" class="btn btn-outline-primary mt-3">Learn ASP.NET Core</a>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row text-center py-4 bg-light rounded-3 shadow-sm">
+        <div class="col-md-4">
+            <div class="feature-icon mb-3">
+                <i class="bi bi-file-earmark-text text-info display-5"></i>
+            </div>
+            <h3 class="h5">Certification Tracking</h3>
+            <p>Stay updated with each employee's certification status and upcoming renewals.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-icon mb-3">
+                <i class="bi bi-calendar-check text-success display-5"></i>
+            </div>
+            <h3 class="h5">Automatic Reminders</h3>
+            <p>Receive timely reminders for expiring certifications, ensuring compliance across the board.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-icon mb-3">
+                <i class="bi bi-people-fill text-warning display-5"></i>
+            </div>
+            <h3 class="h5">Employee Management</h3>
+            <p>Easily manage employee data, certification records, and contact information.</p>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="text-center mt-5">
+        <h2 class="fw-bold text-secondary">Ready to streamline your HR processes?</h2>
+        <p>Get started by exploring employee records or adding new certifications.</p>
+        <div class="d-grid gap-2 d-md-inline-flex justify-content-md-center">
+            <a asp-controller="Employees" asp-action="Index" class="btn btn-primary btn-lg">View Employee List</a>
+            <a asp-controller="Employees" asp-action="Create" class="btn btn-outline-secondary btn-lg">Add New Employee</a>
+        </div>
+    </div>
+</div>
+
+<!-- Styles -->
+<style>
+    .feature-icon i {
+        font-size: 3rem;
+    }
+</style>

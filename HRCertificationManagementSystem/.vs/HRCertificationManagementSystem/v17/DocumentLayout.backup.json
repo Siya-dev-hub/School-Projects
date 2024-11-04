@@ -1,0 +1,413 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\migrations\\20241104112700_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\migrations\\20241104112700_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104112040_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HRCertificationManagementSystem\\Migrations\\20241104112040_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104102444_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HRCertificationManagementSystem\\Migrations\\20241104102444_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241031155330_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HRCertificationManagementSystem\\Migrations\\20241031155330_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\LICENSE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\LICENSE.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|c:\\users\\user\\source\\repos\\hrcertificationmanagementsystem\\hrcertificationmanagementsystem\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0766137-9E10-48B5-8CDC-6CFCEF174E50}|HRCertificationManagementSystem\\HRCertificationManagementSystem.csproj|solutionrelative:hrcertificationmanagementsystem\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241104112700_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104112700_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Migrations\\20241104112700_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104112700_InitialCreate.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Migrations\\20241104112700_InitialCreate.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:27:00.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241104112040_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104112040_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Migrations\\20241104112040_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104112040_InitialCreate.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Migrations\\20241104112040_InitialCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:20:40.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241104102444_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104102444_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Migrations\\20241104102444_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241104102444_InitialCreate.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Migrations\\20241104102444_InitialCreate.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:24:44.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T08:35:01.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\appsettings.json",
+              "RelativeToolTip": "HRCertificationManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T09:36:17.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:35:54.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Program.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:20:29.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241031155330_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241031155330_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Migrations\\20241031155330_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Migrations\\20241031155330_InitialCreate.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Migrations\\20241031155330_InitialCreate.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T15:53:31.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwM0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:09:45.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Models\\Employee.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:36:38.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:58:08.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T08:33:56.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T08:34:25.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\README.md",
+              "ToolTip": "C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\README.md [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\README.md [Read Only]",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-10-31T10:52:01.256Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LICENSE.txt",
+              "DocumentMoniker": "C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\LICENSE.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\LICENSE.txt",
+              "ToolTip": "C:\\Users\\User\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\LICENSE.txt [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\LICENSE.txt [Read Only]",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-31T10:52:08.555Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LICENSE.md",
+              "DocumentMoniker": "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\LICENSE.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\newtonsoft.json\\13.0.3\\LICENSE.md",
+              "ToolTip": "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\LICENSE.md [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\newtonsoft.json\\13.0.3\\LICENSE.md [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-10-31T10:52:16.608Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\newtonsoft.json\\13.0.3\\README.md",
+              "ToolTip": "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\README.md [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\newtonsoft.json\\13.0.3\\README.md [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-10-31T10:52:18.276Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T09:18:51.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T09:24:50.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T13:43:08.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T13:48:31.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T09:24:11.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T09:25:22.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "HRCertificationManagementSystem\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "HRCertificationManagementSystem\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T09:25:59.519Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+﻿@model HRCertificationManagementSystem.Models.Employee
+@{
+    ViewData["Title"] = "Create Employee";
+}
+
+<h2 class="text-center my-4">@ViewData["Title"]</h2>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form asp-action="Create" enctype="multipart/form-data" id="createEmployeeForm">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <!-- First Name -->
+                <div class="form-group mb-3">
+                    <label asp-for="FirstName" class="form-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <!-- Last Name -->
+                <div class="form-group mb-3">
+                    <label asp-for="LastName" class="form-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <!-- Certification -->
+                <div class="form-group mb-3">
+                    <label asp-for="Certification" class="form-label"></label>
+                    <input asp-for="Certification" class="form-control" />
+                    <span asp-validation-for="Certification" class="text-danger"></span>
+                </div>
+
+                <!-- Certification Expiration Date -->
+                <div class="form-group mb-3">
+                    <label asp-for="CertificationExpirationDate" class="form-label"></label>
+                    <input asp-for="CertificationExpirationDate" class="form-control" type="date" />
+                    <span asp-validation-for="CertificationExpirationDate" class="text-danger"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" class="form-control" type="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="form-group mb-3">
+                    <label asp-for="PhoneNumber" class="form-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control" type="tel" pattern="[0-9]{10}" />
+                    <small class="form-text text-muted">Format: 1234567890</small>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <!-- Certification File -->
+                <div class="form-group mb-3">
+                    <label asp-for="CertificationFile" class="form-label"></label>
+                    <input asp-for="CertificationFile" class="form-control" type="file" accept="application/pdf" />
+                    <span asp-validation-for="CertificationFile" class="text-danger"></span>
+                </div>
+
+                <!-- Submit and Back Buttons -->
+                <div class="form-group d-flex justify-content-between mt-4">
+                    <button type="submit" class="btn btn-primary">Create</button>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for Form Validation -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.getElementById('createEmployeeForm').addEventListener('submit', function(event) {
+            const certificationDate = document.querySelector('[asp-for="CertificationExpirationDate"]');
+            const today = new Date().toISOString().split('T')[0];
+            if (certificationDate.value < today) {
+                event.preventDefault();
+                alert("Certification expiration date cannot be in the past.");
+                certificationDate.focus();
+            }
+        });
+    </script>
+}

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Goods Donation";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Goods Donations</h1>
+        <a asp-controller="Home" asp-action="CreateEditGoodsDonation" class="btn btn-secondary">Create New</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead class="table-light">
+            <tr>
+                <th>Id</th>
+                <th>Date</th>
+                <th>Number Of Items</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Is Anonymous</th>
+                <th>Actions</th> <!-- New column for actions -->
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var goodsDonation in Model)
+                {
+                    <tr>
+                        <td>@goodsDonation.Id</td>
+                        <td>@goodsDonation.Date.ToShortDateString()</td>
+                        <td>@goodsDonation.NumberOfItems</td>
+                        <td>@goodsDonation.Category</td>
+                        <td>@goodsDonation.Description</td>
+                        <td>@(goodsDonation.IsAnonymous ? "Yes" : "No")</td> <!-- Better display for boolean value -->
+                        <td>
+                            <a asp-action="CreateEditGoodsDonation" asp-route-id="@goodsDonation.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <a asp-action="DeleteGoodsDonation" asp-route-id="@goodsDonation.Id" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this donation?');">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

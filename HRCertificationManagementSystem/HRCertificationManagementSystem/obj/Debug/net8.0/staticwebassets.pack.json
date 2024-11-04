@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HRCertificationManagementSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HRCertificationManagementSystem.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\0bb2f993-4a1f-463b-ae24-8cc695a1d64b_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\0bb2f993-4a1f-463b-ae24-8cc695a1d64b_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\1514555f-881e-4144-9170-b463630ada51_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\1514555f-881e-4144-9170-b463630ada51_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\1d03e6b6-c97e-4412-a986-45905fa29f56_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\1d03e6b6-c97e-4412-a986-45905fa29f56_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\2142b7c9-146e-4d9d-8d08-fb1dcfe092f8_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\2142b7c9-146e-4d9d-8d08-fb1dcfe092f8_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\3873de6c-775e-4136-94ff-f2bf493e2223_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\3873de6c-775e-4136-94ff-f2bf493e2223_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\6a9f39d2-f541-4590-8440-c0a533dd17d3_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\6a9f39d2-f541-4590-8440-c0a533dd17d3_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\6b947c76-043d-4305-9044-8fd835c186a0_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\6b947c76-043d-4305-9044-8fd835c186a0_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\725b5a76-3c25-48d1-b557-3a2981873e9e_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\725b5a76-3c25-48d1-b557-3a2981873e9e_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\7c2211a8-67bf-4f54-97b2-a7a90e59677c_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\7c2211a8-67bf-4f54-97b2-a7a90e59677c_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\87659adf-516c-486f-8c61-f4a1ade07cbf_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\87659adf-516c-486f-8c61-f4a1ade07cbf_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\90d3edfc-2130-443b-b4e3-d989c1beb9b3_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\90d3edfc-2130-443b-b4e3-d989c1beb9b3_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\91a8aee7-7f68-4a8b-ab99-373568319d51_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\91a8aee7-7f68-4a8b-ab99-373568319d51_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\9e88b407-c213-49df-9047-207e39ddf35f_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\9e88b407-c213-49df-9047-207e39ddf35f_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\a0d2561d-c93e-4438-a42e-0bc351997fd7_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\a0d2561d-c93e-4438-a42e-0bc351997fd7_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\a4db136e-ac2d-4f71-ada1-57db35654111_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\a4db136e-ac2d-4f71-ada1-57db35654111_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\b5a504bc-29c4-40e0-9153-a6bc4eba74a8_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\b5a504bc-29c4-40e0-9153-a6bc4eba74a8_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\bb9b5073-880c-436c-8b33-bc8aa2b7ae92_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\bb9b5073-880c-436c-8b33-bc8aa2b7ae92_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\ed755100-d391-4b56-880a-8a7c7da40e68_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\ed755100-d391-4b56-880a-8a7c7da40e68_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\fb8945d2-edcc-47f0-aeee-57657ca7fd9d_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\fb8945d2-edcc-47f0-aeee-57657ca7fd9d_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\certifications\\fea3c2b7-6d08-4ad6-ae69-32de35f05669_Graduation_Letter_1707222991845.PDF",
+      "PackagePath": "staticwebassets\\certifications\\fea3c2b7-6d08-4ad6-ae69-32de35f05669_Graduation_Letter_1707222991845.PDF"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\HRCertificationManagementSystem\\HRCertificationManagementSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HRCertificationManagementSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HRCertificationManagementSystem.props",
+      "PackagePath": "build\\HRCertificationManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HRCertificationManagementSystem.props",
+      "PackagePath": "buildMultiTargeting\\HRCertificationManagementSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HRCertificationManagementSystem.props",
+      "PackagePath": "buildTransitive\\HRCertificationManagementSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

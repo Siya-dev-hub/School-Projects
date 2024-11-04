@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Disasters";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Disasters</h1>
+        <a asp-controller="Home" asp-action="CreateEditDisaster" class="btn btn-secondary">Create New</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead class="table-light">
+            <tr>
+                <th>Id</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Location</th>
+                <th>Description</th>
+                <th>Aid Type</th> <!-- New column -->
+                <th>Is Active</th>
+                <th>Actions</th> <!-- New column for actions -->
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var aidTypes = ViewBag.AidTypes as List<AidType>; // Cast ViewBag to List<AidType>
+                @foreach (var disaster in Model ?? Enumerable.Empty<DisasterDonation.Models.Disaster>())
+                {
+                    if (disaster != null)
+                    {
+                        <tr>
+                            <td>@disaster.Id</td>
+                            <td>@disaster.StartDate.ToShortDateString()</td>
+                            <td>@disaster.EndDate?.ToShortDateString() ?? "N/A"</td>
+                            <td>@disaster.Location</td>
+                            <td>@disaster.Description</td>
+                            <td>@(aidTypes.FirstOrDefault(at => at.Id == disaster.AidTypeId)?.Name ?? "N/A")</td>
+                            <td>@(disaster.IsActive ? "Yes" : "No")</td>
+                            <td>
+                                <a asp-action="CreateEditDisaster" asp-route-id="@disaster.Id">Edit</a>
+                                <a asp-action="DeleteDisaster" asp-route-id="@disaster.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            }
+        </tbody>
+    </table>
+</div>

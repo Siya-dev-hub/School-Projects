@@ -1,0 +1,100 @@
+﻿@model HRCertificationManagementSystem.Models.Employee
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<h2 class="text-center my-4">@ViewData["Title"]</h2>
+
+<div class="container">
+    <form asp-action="Edit" enctype="multipart/form-data" id="editEmployeeForm">
+        <input type="hidden" asp-for="Id" />
+
+        <!-- First Name -->
+        <div class="form-group mb-3">
+            <label asp-for="FirstName" class="form-label"></label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group mb-3">
+            <label asp-for="LastName" class="form-label"></label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <!-- Certification -->
+        <div class="form-group mb-3">
+            <label asp-for="Certification" class="form-label"></label>
+            <input asp-for="Certification" class="form-control" />
+            <span asp-validation-for="Certification" class="text-danger"></span>
+        </div>
+
+        <!-- Certification Expiration Date -->
+        <div class="form-group mb-3">
+            <label asp-for="CertificationExpirationDate" class="form-label"></label>
+            <input asp-for="CertificationExpirationDate" class="form-control" type="date" />
+            <span asp-validation-for="CertificationExpirationDate" class="text-danger"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" type="email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group mb-3">
+            <label asp-for="PhoneNumber" class="form-label"></label>
+            <input asp-for="PhoneNumber" class="form-control" type="tel" pattern="[0-9]{10}" />
+            <small class="form-text text-muted">Format: 1234567890</small>
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <!-- Current Certification PDF -->
+        <div class="form-group mb-3">
+            <label>Current Certification PDF:</label>
+            @if (!string.IsNullOrEmpty(Model.CertificationPdfPath))
+            {
+                <p>
+                    <a href="@Url.Content(Model.CertificationPdfPath)" target="_blank" class="btn btn-link">View Current PDF</a>
+                </p>
+            }
+            else
+            {
+                <p>No certification PDF uploaded.</p>
+            }
+        </div>
+
+        <!-- Upload New PDF Option -->
+        <div class="form-group mb-3">
+            <label for="certificationPdf" class="form-label">Upload New Certification (PDF):</label>
+            <input type="file" name="certificationPdf" class="form-control" accept="application/pdf" />
+            <small class="form-text text-muted">Only upload a new PDF if you wish to replace the current one.</small>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary mt-3">Save</button>
+        <a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+    </form>
+</div>
+
+<!-- JavaScript for Form Validation -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.getElementById('editEmployeeForm').addEventListener('submit', function(event) {
+            const expirationDate = document.querySelector('[asp-for="CertificationExpirationDate"]');
+            const today = new Date().toISOString().split('T')[0];
+            if (expirationDate.value < today) {
+                event.preventDefault();
+                alert("Certification expiration date cannot be in the past.");
+                expirationDate.focus();
+            }
+        });
+    </script>
+}

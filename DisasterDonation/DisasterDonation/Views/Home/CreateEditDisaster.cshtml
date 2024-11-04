@@ -1,0 +1,49 @@
+﻿@model DisasterDonation.Models.Disaster
+@{
+    ViewData["Title"] = "Create/Edit Disasters";
+    var aidTypes = (List<DisasterDonation.Models.AidType>)ViewBag.AidTypes;
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Create or Edit a Disaster</h1>
+    </div>
+
+    <form asp-action="CreateEditDisasterForm" asp-controller="Home" class="bg-light p-4 rounded shadow-sm">
+        <input type="hidden" asp-for="Id" class="form-control" />
+
+        <div class="mb-3">
+            <label class="form-label">Start Date</label>
+            <input class="form-control" type="date" asp-for="StartDate" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">End Date</label>
+            <input class="form-control" type="date" asp-for="EndDate" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Location</label>
+            <input class="form-control" type="text" asp-for="Location" placeholder="Enter disaster location" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Description</label>
+            <input class="form-control" type="text" asp-for="Description" placeholder="Enter disaster description" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Aid Type</label>
+            <select asp-for="AidTypeId" class="form-select" asp-items="@(new SelectList(ViewBag.AidTypes, "Id", "Name"))">
+                <option value="">Select Aid Type</option>
+            </select>
+        </div>
+
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" asp-for="IsActive" />
+            <label class="form-check-label" for="IsActive">Still Active</label>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Ok</button>
+    </form>
+</div>

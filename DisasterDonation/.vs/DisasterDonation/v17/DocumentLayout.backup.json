@@ -1,0 +1,635 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\DisasterDonation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\migrations\\20241104113520_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\migrations\\20241104113520_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\disasterdonation.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\disasterdonation.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\publicinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\publicinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\monetarydonations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\monetarydonations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\monetarydonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\monetarydonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\predefinedgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\predefinedgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\purchasegoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\purchasegoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\purchasegoodsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\purchasegoodsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\publicinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\publicinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\disasters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\disasters.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\goodsdonations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\goodsdonations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\createeditmonetarydonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\createeditmonetarydonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\createeditgoodsdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\createeditgoodsdonation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\createeditdisaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\createeditdisaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\allocatemoney.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\allocatemoney.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\views\\home\\allocategoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\views\\home\\allocategoods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\disaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\disaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\disasterdonationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\disasterdonationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\goodsdonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\goodsdonation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\allocatemoneyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\allocatemoneyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\allocategoodsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\allocategoodsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|c:\\users\\user\\source\\repos\\disasterdonation\\disasterdonation\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAAC7A41-75E8-4223-92D3-7919E76C729F}|DisasterDonation\\DisasterDonation.csproj|solutionrelative:disasterdonation\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241104113520_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Migrations\\20241104113520_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Migrations\\20241104113520_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Migrations\\20241104113520_InitialCreate.cs",
+              "RelativeToolTip": "DisasterDonation\\Migrations\\20241104113520_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:35:21.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MonetaryDonations.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\MonetaryDonations.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\MonetaryDonations.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\MonetaryDonations.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\MonetaryDonations.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T11:49:46.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\PublicInfo.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\PublicInfo.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\PublicInfo.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\PublicInfo.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T11:07:52.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DisasterDonation\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:50:31.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Program.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Program.cs",
+              "RelativeToolTip": "DisasterDonation\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:36:28.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DisasterDonation",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\DisasterDonation.csproj",
+              "RelativeDocumentMoniker": "DisasterDonation\\DisasterDonation.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\DisasterDonation.csproj",
+              "RelativeToolTip": "DisasterDonation\\DisasterDonation.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-29T10:09:10.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\appsettings.json",
+              "RelativeDocumentMoniker": "DisasterDonation\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\appsettings.json",
+              "RelativeToolTip": "DisasterDonation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T12:38:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonetaryDonation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\MonetaryDonation.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\MonetaryDonation.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\MonetaryDonation.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\MonetaryDonation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:45:21.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PurchaseGoods.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\PurchaseGoods.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\PurchaseGoods.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\PurchaseGoods.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\PurchaseGoods.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T11:37:19.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PredefinedGood.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\PredefinedGood.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\PredefinedGood.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\PredefinedGood.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\PredefinedGood.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAEBTwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T12:43:30.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\Purchase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\Purchase.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\Purchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:35:15.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PublicInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\PublicInfoViewModel.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\PublicInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\PublicInfoViewModel.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\PublicInfoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:07:00.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PurchaseGoodsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\PurchaseGoodsViewModel.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\PurchaseGoodsViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\PurchaseGoodsViewModel.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\PurchaseGoodsViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA1wAgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:35:46.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T15:01:42.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T11:49:51.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAiwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T11:51:59.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:04:57.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateEditGoodsDonation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\CreateEditGoodsDonation.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\CreateEditGoodsDonation.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\CreateEditGoodsDonation.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\CreateEditGoodsDonation.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T10:36:19.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T14:51:37.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateEditMonetaryDonation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\CreateEditMonetaryDonation.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\CreateEditMonetaryDonation.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\CreateEditMonetaryDonation.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\CreateEditMonetaryDonation.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T12:04:06.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GoodsDonations.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\GoodsDonations.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\GoodsDonations.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\GoodsDonations.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\GoodsDonations.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T10:23:01.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Disasters.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\Disasters.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\Disasters.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\Disasters.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\Disasters.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T11:16:27.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateEditDisaster.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\CreateEditDisaster.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\CreateEditDisaster.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\CreateEditDisaster.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\CreateEditDisaster.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T11:30:24.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DisasterDonationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\DisasterDonationDbContext.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\DisasterDonationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\DisasterDonationDbContext.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\DisasterDonationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:09:00.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AllocateMoney.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\AllocateMoney.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\AllocateMoney.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\AllocateMoney.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\AllocateMoney.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:47:09.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AllocateGoods.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\AllocateGoods.cshtml",
+              "RelativeDocumentMoniker": "DisasterDonation\\Views\\Home\\AllocateGoods.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Views\\Home\\AllocateGoods.cshtml",
+              "RelativeToolTip": "DisasterDonation\\Views\\Home\\AllocateGoods.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:28:01.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Disaster.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\Disaster.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\Disaster.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\Disaster.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\Disaster.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA9wBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:14:03.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DisasterDonation\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DisasterDonation\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-29T14:30:26.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DisasterDonation\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\appsettings.Development.json",
+              "RelativeToolTip": "DisasterDonation\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T10:09:49.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "DisasterDonation\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:23:48.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "DisasterDonation\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "DisasterDonation\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-29T12:03:22.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DisasterDonation\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DisasterDonation\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T10:10:53.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GoodsDonation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\GoodsDonation.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\GoodsDonation.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\GoodsDonation.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\GoodsDonation.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:17:41.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AllocateMoneyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\AllocateMoneyViewModel.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\AllocateMoneyViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\AllocateMoneyViewModel.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\AllocateMoneyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:42:40.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AllocateGoodsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\AllocateGoodsViewModel.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\AllocateGoodsViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\AllocateGoodsViewModel.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\AllocateGoodsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:26:32.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "DisasterDonation\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\DisasterDonation\\DisasterDonation\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "DisasterDonation\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T09:43:20.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

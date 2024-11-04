@@ -1,0 +1,94 @@
+﻿@model PurchaseGoodsViewModel
+
+<div class="container mt-4">
+    <h2>Purchase Goods</h2>
+    
+    <div class="alert alert-info">
+        Available Funds: $@Model.AvailableFunds
+    </div>
+
+    <form method="post" asp-action="PurchaseGoods">
+        <div class="form-group mb-3">
+            <label asp-for="SelectedDisasterId">Select Disaster:</label>
+            <select asp-for="SelectedDisasterId" class="form-control" 
+                    asp-items="@(new SelectList(Model.Disasters, "Id", "Description"))">
+                <option value="">-- Select Disaster --</option>
+            </select>
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Unit Cost</th>
+                    <th>Available</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.AvailableGoods.Count; i++)
+                {
+                    var goods = Model.AvailableGoods[i];
+                    <tr>
+                        <td>@goods.Category</td>
+                        <td>@goods.Description</td>
+                        <td>$@goods.UnitCost</td>
+                        <td>@goods.AvailableQuantity</td>
+                        <td>
+                            <input type="number" 
+                                   name="SelectedGoods[@i].Quantity" 
+                                   class="form-control quantity-input" 
+                                   min="0" 
+                                   max="@goods.AvailableQuantity" 
+                                   data-unit-cost="@goods.UnitCost" />
+                            <input type="hidden" name="SelectedGoods[@i].GoodsId" value="@goods.Id" />
+                            <input type="hidden" name="SelectedGoods[@i].Cost" value="@goods.UnitCost" />
+                        </td>
+                        <td class="item-total">0.00</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" class="text-right"><strong>Total Cost:</strong></td>
+                    <td id="grand-total">R0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Purchase Goods</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            function updateTotals() {
+                let grandTotal = 0;
+                
+                $('.quantity-input').each(function() {
+                    const quantity = parseInt($(this).val()) || 0;
+                    const unitCost = parseFloat($(this).data('unit-cost'));
+                    const total = quantity * unitCost;
+                    
+                    $(this).closest('tr').find('.item-total').text('R' + total.toFixed(2));
+                    grandTotal += total;
+                });
+                
+                $('#grand-total').text('R' + grandTotal.toFixed(2));
+                
+                // Disable submit if no disaster selected or no items selected
+                const disasterSelected = $('select[name="SelectedDisasterId"]').val() !== '';
+                const hasItems = grandTotal > 0;
+                $('button[type="submit"]').prop('disabled', !disasterSelected || !hasItems);
+            }
+
+            $('.quantity-input, select[name="SelectedDisasterId"]').on('change input', updateTotals);
+            updateTotals();
+        });
+    </script>
+}

@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container text-center">
+    <h1 class="display-4 mt-5">Welcome</h1>
+    <p class="lead">Welcome to the Disaster Alleviation Foundation's website.</p>
+    <hr class="my-4" />
+
+    <h2>Our Mission</h2>
+    <p>The Disaster Alleviation Foundation is a non-profit organization dedicated to providing practical aid during disasters. Our mission is to ensure that help reaches those in need swiftly and efficiently.</p>
+
+    <h2>How We Help</h2>
+    <p>During times of crisis, we mobilize resources from various donors to support affected communities. Our system tracks all donations, ensuring that every item and every dollar is accounted for and dispatched to the right place.</p>
+
+    <h2>Types of Donations</h2>
+    <p>We accept donations from individuals, companies, other organizations, and governments. Donations can be in the form of goods such as clothes, non-perishable foods, and other essential items, or monetary contributions. Donors have the option to remain anonymous if they choose.</p>
+
+    <h2>Get Involved</h2>
+    <p>Your support can make a significant difference. Whether you are an individual looking to contribute, a company wanting to make a corporate donation, or a government agency offering aid, we welcome your generosity. Together, we can provide the necessary relief to those affected by disasters.</p>
+
+    <h2>Track Your Impact</h2>
+    <p>Our advanced tracking system ensures transparency and accountability. You can see how your donations are being used and the impact they are making in real-time.</p>
+
+    <h2>Contact Us</h2>
+    <p>For more information on how to donate or get involved, please contact us at [contact information].</p>
+
+    <div class="mt-4">
+        <a asp-controller="Home" asp-action="MonetaryDonations" class="btn btn-primary btn-lg mx-2">Overview</a>
+        <a asp-controller="Home" asp-action="CreateEditMonetaryDonation" class="btn btn-secondary btn-lg mx-2">Create New</a>
+    </div>
+</div>

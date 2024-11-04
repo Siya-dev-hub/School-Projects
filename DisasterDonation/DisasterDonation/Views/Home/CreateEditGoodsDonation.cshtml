@@ -1,0 +1,46 @@
+﻿@model DisasterDonation.Models.GoodsDonation
+@{
+    ViewData["Title"] = "Create/Edit Goods Donation";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">Create or Edit a Goods Donation</h1>
+    </div>
+
+    <form asp-action="CreateEditGoodsDonationForm" asp-controller="Home" class="bg-light p-4 rounded shadow-sm">
+        <input type="hidden" asp-for="Id" class="form-control" />
+
+        <div class="mb-3">
+            <label class="form-label">Date of Donation</label>
+            <input class="form-control" type="date" asp-for="Date" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Number of Items</label>
+            <input class="form-control" type="number" placeholder="Add an amount" asp-for="NumberOfItems" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Category</label>
+            <select asp-for="Category" class="form-select">
+                <option value="">Select Category</option>
+                <option value="Non-Perishable">Non-Perishable</option>
+                <option value="Clothes">Clothes</option>
+                <option value="Medical">Medical</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Description</label>
+            <input class="form-control" type="text" placeholder="Add a description" asp-for="Description" />
+        </div>
+
+        <div class="mb-3 form-check">
+            <input class="form-check-input" type="checkbox" asp-for="IsAnonymous" />
+            <label class="form-check-label" for="IsAnonymous">Anonymous Donor</label>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Ok</button>
+    </form>
+</div>

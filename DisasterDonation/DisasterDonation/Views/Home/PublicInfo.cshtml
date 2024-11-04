@@ -1,0 +1,47 @@
+﻿@model DisasterDonation.Models.PublicInfoViewModel
+
+@{
+    ViewData["Title"] = "Public Information";
+}
+
+<div class="container mt-5">
+    <h1 class="display-4 text-center">@ViewData["Title"]</h1>
+
+    <div class="mt-4">
+        <h2>Total Monetary Donations</h2>
+        <p class="lead text-center">@ViewBag.MonetaryDonations</p>
+
+        <h2>Total Number of Goods Received</h2>
+        <p class="lead text-center">@ViewBag.GoodsDonations</p>
+
+        <h2>Currently Active Disasters</h2>
+        @if (Model.ActiveDisasters.Any())
+        {
+            <table class="table table-striped mt-3">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Location</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var disaster in Model.ActiveDisasters)
+                    {
+                        <tr>
+                            <td>@(disaster.StartDate.ToShortDateString())</td>
+                            <td>@(disaster.EndDate.HasValue ? disaster.EndDate.Value.ToShortDateString() : "N/A")</td>
+                            <td>@disaster.Location</td>
+                            <td>@disaster.Description</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p class="text-center">No active disasters at the moment.</p>
+        }
+    </div>
+</div>

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DisasterDonation</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DisasterDonation.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4 shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">DisasterDonation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="donationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Donations
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="donationsDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="MonetaryDonations">Monetary</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="GoodsDonations">Goods</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="AllocateGoods">Allocate Goods</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="AllocateMoney">Allocate Money</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="disastersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Disasters
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="disastersDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Disasters">View Disasters</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="PurchaseGoods">Purchase Goods</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="PublicInfo">Public Info</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Identity/Account/Logout">Logout</a></li>
+                        }
+                        else
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Identity/Account/Login">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Identity/Account/Register">Register</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="bg-light p-5 rounded-3 shadow-sm">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+    <footer class="bg-primary text-white py-3 mt-4">
+        <div class="container text-center">
+            <span>&copy; 2024 - DisasterDonation - <a class="text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></span>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
