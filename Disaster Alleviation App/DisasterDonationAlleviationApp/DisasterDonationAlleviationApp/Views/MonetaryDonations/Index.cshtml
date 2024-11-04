@@ -1,0 +1,28 @@
+﻿@model IEnumerable<DisasterDonationAlleviationApp.Models.MonetaryDonation>
+@*
+    
+*@
+@{
+    ViewData["Title"] = "Monetary Donations";
+}
+<h2>Monetary Donations</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th style ="background-color: #333; color: #fff;">Date</th>
+            <th style="background-color: #333; color: #fff;">Amount</th>
+            <th style="background-color: #333; color: #fff;">Anonymous</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var donation in Model)
+        {
+            <tr>
+                <td>@donation.Date.ToShortDateString()</td>
+                <td>@donation.Amount</td>
+                <td>@(donation.IsAnonymous ? "Yes" : "No")</td>
+            </tr>
+        }
+    </tbody>
+</table>

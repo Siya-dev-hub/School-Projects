@@ -1,0 +1,34 @@
+﻿@model DisasterDonationAlleviationApp.Models.MonetaryDonation
+
+@{
+    ViewData["Title"] = "Create Monetary Donation";
+}
+
+<h2>Create Monetary Donation</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Date" class="control-label">Donation Date</label>
+        <input asp-for="Date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Amount" class="control-label">Amount</label>
+        <input asp-for="Amount" class="form-control" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="IsAnonymous" class="control-label">Anonymous Donation</label>
+        <input asp-for="IsAnonymous" type="checkbox" />
+        <span asp-validation-for="IsAnonymous" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

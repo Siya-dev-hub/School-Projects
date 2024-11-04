@@ -1,0 +1,61 @@
+﻿@model IEnumerable<DisasterDonationAlleviationApp.Models.Disaster>
+
+@{
+    ViewData["Title"] = "Disaster List";
+}
+
+<h2>Disaster List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Disaster</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th style="background-color: #333; color: #fff;">
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th style="background-color: #333; color: #fff;">
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th style="background-color: #333; color: #fff;">
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th style="background-color: #333; color: #fff;">
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th style="background-color: #333; color: #fff;">
+                Required Aid Types
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @string.Join(", ", item.DisasterAidTypes.Select(d => d.AidType.Type))
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
