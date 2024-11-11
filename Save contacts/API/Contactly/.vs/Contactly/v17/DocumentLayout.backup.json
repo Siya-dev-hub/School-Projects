@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\API\\Contactly\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|c:\\users\\user\\source\\repos\\api\\contactly\\contactly\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|solutionrelative:contactly\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|c:\\users\\user\\source\\repos\\api\\contactly\\contactly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|solutionrelative:contactly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|c:\\users\\user\\source\\repos\\api\\contactly\\contactly\\data\\contactlydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|solutionrelative:contactly\\data\\contactlydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|c:\\users\\user\\source\\repos\\api\\contactly\\contactly\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|solutionrelative:contactly\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|c:\\users\\user\\source\\repos\\api\\contactly\\contactly\\models\\addcontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|solutionrelative:contactly\\models\\addcontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|c:\\users\\user\\source\\repos\\api\\contactly\\contactly\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E48E8E67-EE1E-43B3-B205-018557BE7C57}|Contactly\\Contactly.csproj|solutionrelative:contactly\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Program.cs",
+              "RelativeDocumentMoniker": "Contactly\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Program.cs",
+              "RelativeToolTip": "Contactly\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T15:23:11.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddContactRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Models\\AddContactRequestDTO.cs",
+              "RelativeDocumentMoniker": "Contactly\\Models\\AddContactRequestDTO.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Models\\AddContactRequestDTO.cs",
+              "RelativeToolTip": "Contactly\\Models\\AddContactRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:35:03.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Contactly\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Contactly\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:35:00.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Models\\Domain\\Contact.cs",
+              "RelativeDocumentMoniker": "Contactly\\Models\\Domain\\Contact.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Models\\Domain\\Contact.cs",
+              "RelativeToolTip": "Contactly\\Models\\Domain\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:30:29.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactlyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Data\\ContactlyDbContext.cs",
+              "RelativeDocumentMoniker": "Contactly\\Data\\ContactlyDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Data\\ContactlyDbContext.cs",
+              "RelativeToolTip": "Contactly\\Data\\ContactlyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:30:17.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Contactly\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\API\\Contactly\\Contactly\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Contactly\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwDcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:13:54.877Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
